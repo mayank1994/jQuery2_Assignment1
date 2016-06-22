@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning Jquery2: Assignment1.1</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<p>Click me!</p>
+
+<script type="text/javascript">
+
+      $("p").bind("click", function()
+      {
+       $( "<p>This is a click Event</p>").appendTo( "body" );
+       });
+
+      $("p").bind("dblclick", function()
+      {
+       $( "<p>This is a double-click Event</p>"  ).appendTo( "body" );
+       });
+
+</script>
+
+
+
+
+</body>
+</html>
